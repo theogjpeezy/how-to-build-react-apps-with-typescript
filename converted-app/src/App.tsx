@@ -3,13 +3,14 @@ import { useState } from "react";
 import { TodoInput } from "./todoInput";
 import { TodoCardGrid } from "./todoCardGrid";
 import { Container } from "reactstrap";
+import { ITodo } from "./ITodo";
 
 const App = () => {
-  const [todos, setTodos] = useState([]);
-  const addTodo = (todo) => {
+  const [todos, setTodos] = useState<ITodo[]>([]);
+  const addTodo = (todo: ITodo) => {
     setTodos([...todos, todo]);
   };
-  const completeTodo = (todoName) =>
+  const completeTodo = (todoName: string) =>
     setTodos(
       todos.map((todo) => {
         if (todo.title !== todoName) return todo;

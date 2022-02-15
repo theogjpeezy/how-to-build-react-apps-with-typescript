@@ -1,13 +1,16 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Button } from 'reactstrap';
+import React from "react";
+import { Button } from "reactstrap";
 
-const CompleteButton = props => <Button disabled={props.completed} onClick={props.completeTodo}>Complete</Button>;
-
-CompleteButton.propTypes = {
-    completeTodo: PropTypes.func.isRequired
-};
-
-export {
-    CompleteButton
+export interface ICompleteButtonProps {
+  completed: boolean;
+  completeTodo: () => void;
 }
+
+export const CompleteButton = ({
+  completed,
+  completeTodo,
+}: ICompleteButtonProps) => (
+  <Button disabled={completed} onClick={completeTodo}>
+    Complete
+  </Button>
+);

@@ -25,7 +25,7 @@ const App = () => {
       <div className={"App-header"}>Todo List</div>
       <div className={"App-logo"}>
         <Container>
-          <TodoInput addTodo={addTodo} />
+          <TodoInput addTodo={setTodos} />
           <TodoCardGrid todos={todos} completeTodo={completeTodo} />
         </Container>
       </div>
