@@ -19,6 +19,7 @@ import { TypeUserDefinedComposed } from './slides/typeUserDefinedComposed';
 import { TypeGenerics } from './slides/typeGenerics';
 import { NewTypeScriptReactApp } from './slides/newTypeScriptReactApp';
 import { ConvertingExisting } from './slides/convertingExisting';
+import { ComposingTypes } from './slides/composingTypes';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <TypeBasicDefinition />
       <TypeUserDefinedComposed />
       <TypeGenerics />
+      <ComposingTypes />
       <NewTypeScriptReactApp />
       <ConvertingExisting />
     </Deck>
