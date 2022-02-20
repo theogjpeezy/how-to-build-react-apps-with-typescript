@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heading, Slide } from 'spectacle';
+import { Box, Heading, Slide } from 'spectacle';
 export interface IBaseSlideProps {
   slideTitle: string;
 }
@@ -14,6 +14,19 @@ export const SlideWithHeader: React.FunctionComponent<IBaseSlideProps> = ({slide
 
 export const BlankSlide: React.FunctionComponent = ({children}) => {
   return <Slide backgroundColor={'slide'} backgroundImage={'url(images/swirl-only-clearedge-logo-rgb.png)'} backgroundOpacity={.2} backgroundPosition={'center'} backgroundSize={'40%'}>
-    {children}
+    <Box border={'5px solid rgb(84, 88, 89, .3)'} borderRadius={"20px"} height="93%" padding={"1vh"}>
+      {children}
+    </Box>
   </Slide>
+}
+
+export interface ISectionSlideProps {
+  sectionName: string;
+}
+
+export const SectionSlide: React.FunctionComponent<ISectionSlideProps> = ({sectionName, children}) => {
+  return <BlankSlide>
+    <Heading margin={'40vh 0 0 10vh'} textAlign={'left'} fontSize={'h1'}>{sectionName}</Heading>
+    <Box padding={1}>{children}</Box>
+  </BlankSlide>
 }

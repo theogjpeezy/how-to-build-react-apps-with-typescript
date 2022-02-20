@@ -6,6 +6,8 @@ import { IntroSlide } from './slides/intro';
 import { AgendaOne } from './slides/agendaOne';
 import { AgendaTwo } from './slides/agendaTwo';
 import { theme } from './theme/theme';
+import { WhatIsReactSection } from './slides/whatIsReactSection';
+import { WhatisReact } from './slides/whatIsReact';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <IntroSlide />
       <AgendaOne />
       <AgendaTwo />
+      <WhatIsReactSection />
+      <WhatisReact />
     </Deck>
   );
 }
