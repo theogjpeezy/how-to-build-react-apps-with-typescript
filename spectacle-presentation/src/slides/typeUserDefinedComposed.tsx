@@ -1,8 +1,9 @@
 import React from 'react';
-import { CodePane, Notes, Slide } from 'spectacle';
+import { Box, CodePane, Notes, Slide } from 'spectacle';
 
 export const TypeUserDefinedComposed: React.FunctionComponent = () => {
   return <Slide backgroundColor='white'>
+    <Box padding={'20vh 0 0 0'} position={'center'}>
       <CodePane language={'typescript'}>
         {`
           // User Defined Types
@@ -18,6 +19,7 @@ export const TypeUserDefinedComposed: React.FunctionComponent = () => {
           }
         `}
       </CodePane>
+    </Box>
     <Notes> </Notes>
   </Slide>;
 }

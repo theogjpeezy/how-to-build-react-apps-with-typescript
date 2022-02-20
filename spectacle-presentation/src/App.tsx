@@ -20,6 +20,8 @@ import { TypeGenerics } from './slides/typeGenerics';
 import { NewTypeScriptReactApp } from './slides/newTypeScriptReactApp';
 import { ConvertingExisting } from './slides/convertingExisting';
 import { ComposingTypes } from './slides/composingTypes';
+import { PropsAndStateExample } from './slides/propsAndStateExample';
+import { FurtherResources } from './slides/furtherResources';
 
 function App() {
   return (
@@ -32,6 +34,7 @@ function App() {
       <WhatConstitutesReact />
       <SampleComponent />
       <StateAndProps />
+      <PropsAndStateExample />
       <WhatIsTypeScriptSection />
       <WhatIsTypeScript />
       <BenefitsOfTypeScript />
@@ -41,6 +44,7 @@ function App() {
       <ComposingTypes />
       <NewTypeScriptReactApp />
       <ConvertingExisting />
+      <FurtherResources />
     </Deck>
   );
 }
