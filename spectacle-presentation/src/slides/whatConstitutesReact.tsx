@@ -2,8 +2,8 @@ import { ListItem, Notes, UnorderedList } from "spectacle";
 import { SlideWithHeader } from "../template/baseSlide";
 
 export const WhatConstitutesReact = () => {
-  return <SlideWithHeader slideTitle={'What constitutest a React App'}>
-    <UnorderedList>
+  return <SlideWithHeader slideTitle={'What constitutest a React App?'}>
+    <UnorderedList fontSize={'list'}>
       <ListItem>A React app is simply a set of components that call one another to build a user interface</ListItem>
       <ListItem>A component is either a class or a function</ListItem>
       <ListItem>The push from React 16 forward has been towards functional components, so we will focus on them for this talk</ListItem>

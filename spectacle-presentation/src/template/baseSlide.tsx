@@ -6,7 +6,7 @@ export interface IBaseSlideProps {
 export const SlideWithHeader: React.FunctionComponent<IBaseSlideProps> = ({slideTitle, children}) => {
 
   return <Slide backgroundColor={'slide'} backgroundImage={'url(images/swirl-only-clearedge-logo-rgb.png)'} backgroundOpacity={.2} backgroundPosition={'50% 60%'} backgroundSize={'30%'}>
-    <Heading textAlign={"left"} backgroundColor={'#545859'}>{slideTitle}</Heading>
+    <Heading padding={1} textAlign={"left"} fontSize={'h2'} backgroundColor={'#545859'}>{slideTitle}</Heading>
     {children}
   </Slide>
 }
@@ -22,11 +22,13 @@ export const BlankSlide: React.FunctionComponent = ({children}) => {
 
 export interface ISectionSlideProps {
   sectionName: string;
+  subHeading?: string;
 }
 
-export const SectionSlide: React.FunctionComponent<ISectionSlideProps> = ({sectionName, children}) => {
+export const SectionSlide: React.FunctionComponent<ISectionSlideProps> = ({sectionName, subHeading, children}) => {
   return <BlankSlide>
-    <Heading margin={'40vh 0 0 10vh'} textAlign={'left'} fontSize={'h1'}>{sectionName}</Heading>
-    <Box padding={1}>{children}</Box>
+    <Heading margin={'40vh 0 0 2vw'} textAlign={'left'} fontSize={'h1'}>{sectionName}</Heading>
+    {!!subHeading && <Heading margin={'0 10vw 0 4vw'} color={'ceCharcoal'} textAlign={'left'} fontSize={'42px'}>{subHeading}</Heading>}
+    {!!children && <Box padding={1}>{children}</Box>}
   </BlankSlide>
 }

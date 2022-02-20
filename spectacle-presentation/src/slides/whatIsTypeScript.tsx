@@ -5,7 +5,7 @@ import { SlideWithHeader } from '../template/baseSlide';
 export const WhatIsTypeScript = () => {
   return <SlideWithHeader slideTitle={'What is TypeScript?'}>
     <Grid gridTemplateColumns={'auto auto'}>
-      <UnorderedList>
+      <UnorderedList fontSize={'list'}>
         <ListItem>It is a superset of Javascript​ that leverages strong types</ListItem>
         <ListItem>It has a transpiler (much like babel) that will transpile your application logic into a known ES standard to ensure browser support​</ListItem>
         <ListItem>It is a compiler in the idea of a type checker.  It will evaluate the types in the application and ensure everything is written to work together​</ListItem>

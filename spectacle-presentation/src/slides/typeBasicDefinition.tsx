@@ -1,10 +1,10 @@
 import React from 'react';
-import { CodePane, Notes } from 'spectacle';
-import { SlideWithHeader } from '../template/baseSlide';
+import { CodePane, Notes, Slide } from 'spectacle';
+import { BlankSlide, SlideWithHeader } from '../template/baseSlide';
 
 export const TypeBasicDefinition: React.FunctionComponent = () => {
-  return <SlideWithHeader slideTitle={"How to Add Types - Basic Definitions"}>
-    <CodePane language={'typescript'}>
+  return <Slide backgroundColor='white'>
+    <CodePane language={'typescript'} fontSize={'24px'}>
       {`
         // Basic type assignment to a variable
         const myCounter: number = 0;
@@ -31,5 +31,5 @@ export const TypeBasicDefinition: React.FunctionComponent = () => {
       `}
     </CodePane>
     <Notes> </Notes>
-  </SlideWithHeader>;
+  </Slide>;
 }

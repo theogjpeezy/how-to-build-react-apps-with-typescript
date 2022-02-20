@@ -9,7 +9,7 @@ export const StateAndProps: React.FunctionComponent = () => {
         <ListItem>A React Component can also have its own internal state that it manages</ListItem>
         <ListItem>The useState hook returns the current value of the property and a function to set the state property</ListItem>
         <ListItem>A React Component will render when:</ListItem>
-        <UnorderedList>
+        <UnorderedList fontSize={'secondaryList'}>
           <ListItem>The component is executed again with DIFFERENT props</ListItem>
           <ListItem>A state property value is changed via the given function</ListItem>
         </UnorderedList>

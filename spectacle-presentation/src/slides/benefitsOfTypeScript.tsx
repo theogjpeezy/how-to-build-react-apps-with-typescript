@@ -4,7 +4,7 @@ import { SlideWithHeader } from '../template/baseSlide';
 
 export const BenefitsOfTypeScript: React.FunctionComponent = () => {
   return <SlideWithHeader slideTitle={'Benefits of TypeScript'}>
-    <UnorderedList>
+    <UnorderedList fontSize={'list'}>
     <ListItem>Types give us a way to ensure that our changes work with the application as written.  (Reduction of runtime debugging)​</ListItem>
     <ListItem>Types are self-documenting reducing the amount of documentation drift.​</ListItem>
     <ListItem>Types allow us to communicate intent for functionality​</ListItem>

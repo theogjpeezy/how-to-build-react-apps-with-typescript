@@ -1,9 +1,8 @@
 import React from 'react';
-import { CodePane, ListItem, Notes, UnorderedList } from 'spectacle';
-import { SlideWithHeader } from '../template/baseSlide';
+import { CodePane, Notes, Slide } from 'spectacle';
 
 export const TypeUserDefinedComposed: React.FunctionComponent = () => {
-  return <SlideWithHeader slideTitle={'How to Add Types - User Defined and Composed'}>
+  return <Slide backgroundColor='white'>
       <CodePane language={'typescript'}>
         {`
           // User Defined Types
@@ -20,5 +19,5 @@ export const TypeUserDefinedComposed: React.FunctionComponent = () => {
         `}
       </CodePane>
     <Notes> </Notes>
-  </SlideWithHeader>;
+  </Slide>;
 }
