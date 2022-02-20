@@ -1,4 +1,5 @@
 import React from 'react';
+import { Heading, Notes } from 'spectacle';
 import { SectionSlide } from '../template/baseSlide';
 
 export const WhatIsTypeScriptSection: React.FunctionComponent = () => {

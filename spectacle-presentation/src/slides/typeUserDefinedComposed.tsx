@@ -1,36 +1,24 @@
 import React from 'react';
+import { CodePane, ListItem, Notes, UnorderedList } from 'spectacle';
 import { SlideWithHeader } from '../template/baseSlide';
 
 export const TypeUserDefinedComposed: React.FunctionComponent = () => {
   return <SlideWithHeader slideTitle={'How to Add Types - User Defined and Composed'}>
-    <UnorderedList>
-      <ListItem>User Defined Types</ListItem>
       <CodePane language={'typescript'}>
-        {
+        {`
+          // User Defined Types
           type MyCategory = {
             type: string;
             count: number;
           }
-        }
-      </CodePane>
-      <ListItem>Interfaces</ListItem>
-      <CodePane language={'typescript'}>
-        {
+          
+          // Interfaces
           interface IMyCategory {
             type: string;
             count: number;
           }
-        }
+        `}
       </CodePane>
-    </UnorderedList>
     <Notes> </Notes>
   </SlideWithHeader>;
 }
-
-//How to Add Types - User Defined and Composed
-/*
-User Defined
-Composed
-Types
-  Interfaces
-*/

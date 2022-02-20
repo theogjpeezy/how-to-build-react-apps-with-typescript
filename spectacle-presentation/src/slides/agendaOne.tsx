@@ -35,14 +35,3 @@ export const AgendaOne: React.FunctionComponent = () => <SlideWithHeader slideTi
   </Grid>
   <Notes> </Notes>
 </SlideWithHeader>
-
-/*
-What is TypeScript?
-Reason for inception
-Reason for adoption to a project
-Types
-Native Types
-User-Defined Types
-Composed Types
-Types with Generics
-*/

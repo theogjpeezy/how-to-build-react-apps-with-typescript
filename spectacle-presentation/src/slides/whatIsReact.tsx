@@ -1,9 +1,6 @@
 import React from 'react';
+import { ListItem, Notes, UnorderedList } from 'spectacle';
 import { SlideWithHeader } from '../template/baseSlide';
-
-/*
-
-*/
 
 export const WhatisReact: React.FunctionComponent = () => {
   return <SlideWithHeader slideTitle={'What is React?'}>

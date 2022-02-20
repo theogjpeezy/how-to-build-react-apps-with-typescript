@@ -1,10 +1,11 @@
 import React from 'react';
+import { CodePane, Notes } from 'spectacle';
 import { SlideWithHeader } from '../template/baseSlide';
 
 export const ComposingTypes: React.FunctionComponent = () => {
   return <SlideWithHeader slideTitle={'Composing Types'}>
     <CodePane language={'typescript'}>
-      {
+      {`
         // Unions
         type Category = 'catA' | 'catB' | 'catC';
 
@@ -19,7 +20,7 @@ export const ComposingTypes: React.FunctionComponent = () => {
         interface IMarketItem extends IHasType {
           name: string;
         }
-      }
+      `}
     </CodePane>
     <Notes> </Notes>
   </SlideWithHeader>

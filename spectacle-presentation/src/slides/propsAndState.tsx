@@ -1,4 +1,5 @@
 import React from 'react';
+import { ListItem, Notes, UnorderedList } from 'spectacle';
 import { SlideWithHeader } from '../template/baseSlide';
 
 export const StateAndProps: React.FunctionComponent = () => {
@@ -16,8 +17,3 @@ export const StateAndProps: React.FunctionComponent = () => {
       <Notes> </Notes>
     </SlideWithHeader>
 }
-
-//Props and State and the effects on rendering
-/*
-
-  */

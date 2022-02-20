@@ -1,8 +1,9 @@
 import React from 'react';
+import { Grid, ListItem, UnorderedList, Image, Notes } from 'spectacle';
 import { SlideWithHeader } from '../template/baseSlide';
 
 export const WhatIsTypeScript = () => {
-  return <SlideWithHeader>
+  return <SlideWithHeader slideTitle={'What is TypeScript?'}>
     <Grid gridTemplateColumns={'auto auto'}>
       <UnorderedList>
         <ListItem>It is a superset of Javascript​ that leverages strong types</ListItem>
@@ -15,7 +16,3 @@ export const WhatIsTypeScript = () => {
     <Notes> </Notes>
   </SlideWithHeader>;
 }
-
-//What is TypeScript?
-/*
-*/

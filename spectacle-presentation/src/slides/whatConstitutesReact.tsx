@@ -1,3 +1,4 @@
+import { ListItem, Notes, UnorderedList } from "spectacle";
 import { SlideWithHeader } from "../template/baseSlide";
 
 export const WhatConstitutesReact = () => {
@@ -12,7 +13,3 @@ export const WhatConstitutesReact = () => {
     <Notes> </Notes>
   </SlideWithHeader>;
 }
-
-//What constitutes a React App
-/*
-*/

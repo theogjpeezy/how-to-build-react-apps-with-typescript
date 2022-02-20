@@ -1,4 +1,5 @@
 import React from 'react'
+import { Box, CodePane, Grid, Heading, ListItem, Notes, UnorderedList } from 'spectacle';
 import { SlideWithHeader } from '../template/baseSlide';
 
 export const SampleComponent: React.FunctionComponent = () => {
@@ -11,13 +12,13 @@ export const SampleComponent: React.FunctionComponent = () => {
       </UnorderedList>
       <Box>
         <CodePane language={'javascript'}>
-          {
+          {`
             const NameLabel = props => {
               const name = !!props?.name ? props.name : 'not sure';
 
-              return <h1>{`My name is ${name}`</h1>;
+              return <h1>{\`My name is \$\{name\}\`</h1>;
             }
-          }
+          `}
         </CodePane>
         <Heading>With name prop given</Heading>
         <NameLabel name={"Justin Cronin"} />
@@ -33,7 +34,7 @@ export const SampleComponent: React.FunctionComponent = () => {
 interface INameLabel {
   name?: string;
 }
-const NameLabel: React.FunctionComponent = props => {
+const NameLabel: React.FunctionComponent<INameLabel> = props => {
   const name = !!props?.name ? props.name : 'not sure';
 
   return <h1>{`My name is ${name}`}</h1>;

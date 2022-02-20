@@ -1,4 +1,5 @@
 import React from 'react';
+import { CodeSpan, Notes } from 'spectacle';
 import { SlideWithHeader } from '../template/baseSlide';
 
 export const NewTypeScriptReactApp: React.FunctionComponent = () => {

@@ -1,10 +1,12 @@
+import React from "react";
+import { Box, CodePane, Grid, Notes } from "spectacle";
 import { BlankSlide } from "../template/baseSlide"
 
 export const PropsAndStateExample: React.FunctionComponent = () => {
   return <BlankSlide>
     <Grid gridTemplateColumns={'auto auto'}>
       <CodePane language='javascript'>
-        {
+        {`
           const IncrementButton = props => {
             const [count, setCount] = React.useState(0);
 
@@ -17,7 +19,7 @@ export const PropsAndStateExample: React.FunctionComponent = () => {
 
           //usage
           //<IncrementButton buttonText={"click me"} />
-        }
+        `}
       </CodePane>
       <Box>
         <IncrementButton buttonText={"click me"} />

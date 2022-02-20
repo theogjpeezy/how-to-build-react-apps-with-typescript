@@ -1,5 +1,5 @@
 import React from 'react';
-import { UnorderedList, ListItem } from 'spectacle';
+import { UnorderedList, ListItem, Notes } from 'spectacle';
 import { SlideWithHeader } from '../template/baseSlide';
 
 export const BenefitsOfTypeScript: React.FunctionComponent = () => {
