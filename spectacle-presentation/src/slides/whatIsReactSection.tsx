@@ -7,5 +7,7 @@ export const WhatIsReactSection: React.FunctionComponent = () =>
     sectionName={"What is React?"} 
     subHeading={'What it is and how to build apps with it'}
   >
-    <Notes> </Notes>
+    <Notes> 
+      First section, What is React?
+    </Notes>
   </SectionSlide>

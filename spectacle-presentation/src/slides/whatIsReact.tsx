@@ -11,6 +11,8 @@ export const WhatisReact: React.FunctionComponent = () => {
       <ListItem>Since version 16, there has been a heavy push towards functional practices, focusing mainly on Pure Functions.  </ListItem>
       <ListItem>A Pure Function is a function that will always give the same output when given the same input (i.e. f(x) = x + 2)</ListItem>
     </UnorderedList>
-    <Notes> </Notes>
+    <Notes> 
+      React is a front end framework 
+    </Notes>
   </SlideWithHeader>
 };

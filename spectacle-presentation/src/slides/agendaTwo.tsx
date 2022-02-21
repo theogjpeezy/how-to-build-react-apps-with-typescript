@@ -13,5 +13,8 @@ export const AgendaTwo: React.FunctionComponent = () => <SlideWithHeader slideTi
       </UnorderedList>
     <ListItem>Converting an existing React app to TypeScript</ListItem>
   </UnorderedList>
-  <Notes> </Notes>
+  <Notes> 
+    After we have TypeScript covered, we can look at how straight forward it is to create a React project with TypeScript
+    Then, we'll go outside of the presentation slides and see if we can convert an existing React app to TypeScript
+  </Notes>
 </SlideWithHeader>

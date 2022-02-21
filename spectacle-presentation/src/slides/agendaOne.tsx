@@ -33,5 +33,12 @@ export const AgendaOne: React.FunctionComponent = () => <SlideWithHeader slideTi
       </UnorderedList>
     </UnorderedList>
   </Grid>
-  <Notes> </Notes>
+  <Notes>
+    We will start today by going over what React is and why we would want to use it, and also how it separates itself with the myriad of front end frameworks out there.
+    We will also touch on the philosophy of React and how it has changed over time
+    Next we will go over what the structure of a React Component is. 
+    Once we tackle this, we can talk through a component's props and state.
+    With those bases covered we can start talking about TypeScript.
+    We need to cover what TypeScript is, what problems it solves, and what it brings for us in React
+  </Notes>
 </SlideWithHeader>

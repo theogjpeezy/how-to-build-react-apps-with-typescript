@@ -10,5 +10,9 @@ export const IntroSlide: React.FunctionComponent = () => <BlankSlide>
     Solutions Architect <br/>
     jcronin@clearedgeit.com
   </Heading>        
-  <Notes> </Notes>
+  <Notes>
+    Hello, my name is Justin Cronin.  
+    I am a Solutions Architect here at ClearEdge.
+    Today we will be talking about building React Apps with TypeScript  
+  </Notes>
 </BlankSlide>
