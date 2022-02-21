@@ -22,6 +22,12 @@ import { ConvertingExisting } from './slides/convertingExisting';
 import { ComposingTypes } from './slides/composingTypes';
 import { PropsAndStateExample } from './slides/propsAndStateExample';
 import { FurtherResources } from './slides/furtherResources';
+import { AnyAndUnknown } from './slides/anyAndUnknown';
+import { Casting } from './slides/casting';
+import { BringingItTogetherSection } from './slides/bringingItTogetherSection';
+import { ReactJSShortComings } from './slides/reactJSShortcomings';
+import { TypingProps } from './slides/typingProps';
+import { TypingState } from './slides/typingState';
 
 function App() {
   return (
@@ -42,7 +48,13 @@ function App() {
       <TypeUserDefinedComposed />
       <TypeGenerics />
       <ComposingTypes />
+      <AnyAndUnknown />
+      <Casting />
+      <BringingItTogetherSection />
       <NewTypeScriptReactApp />
+      <ReactJSShortComings />
+      <TypingProps />
+      <TypingState />
       <ConvertingExisting />
       <FurtherResources />
     </Deck>

@@ -3,6 +3,14 @@ import { chunk } from "lodash";
 import { Row, Col } from "reactstrap";
 import { Todo } from "./todo";
 
+/*
+export interface ITodoCardGridProps {
+  todos: ITodo[];
+  chunkSize?: number;
+  completeTodo: (title: string) => void;
+}
+*/
+
 export const TodoCardGrid = (props) => {
   const chunkSize = props.chunkSize ?? 3;
   const chunks = chunk(props.todos, chunkSize);

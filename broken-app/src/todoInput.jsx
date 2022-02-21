@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Button, FormGroup, Input, Label, Form, Col, Row } from "reactstrap";
 import { ITodo } from "./ITodo";
-
+/*
 export interface ITodoInputProps {
   addTodo: (todo: ITodo) => void;
 }
+*/
 
-export const TodoInput = ({ addTodo }: ITodoInputProps) => {
+export const TodoInput = ({ addTodo }) => {
   const [todoName, setTodoName] = useState("");
   const onClick = () => {
     addTodo({ title: todoName, completed: false });

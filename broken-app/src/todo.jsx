@@ -2,6 +2,14 @@ import React from "react";
 import { CompleteButton } from "./completeButton";
 import { Card, CardTitle, CardBody } from "reactstrap";
 
+/*
+export interface ITodoProps {
+  title: string;
+  completeTodo: (title: string) => void;
+  completed: boolean;
+}
+*/
+
 export const Todo = (props) => {
   const textDecoration = props.completed ? "line-through" : "";
 

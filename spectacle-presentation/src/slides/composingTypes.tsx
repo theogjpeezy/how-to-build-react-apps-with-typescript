@@ -3,7 +3,7 @@ import { Box, CodePane, Notes, Slide } from 'spectacle';
 
 export const ComposingTypes: React.FunctionComponent = () => {
   return <Slide backgroundColor={'white'}>
-    <Box padding={'15vh 0 0 0'}>  
+    <Box padding={'10vh 0 0 0'}>  
       <CodePane language={'typescript'}>
         {`
           // Unions

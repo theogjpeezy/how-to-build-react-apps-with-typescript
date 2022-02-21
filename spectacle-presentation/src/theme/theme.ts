@@ -4,8 +4,8 @@ export const theme = {
     secondaryList: '24px'
   },
   sizes: {
-    width: '100%',
-    height: '100%'
+    // width: '100%',
+    // height: '100%'
   },
   colors: {
     ceCharcoal: "#545859",

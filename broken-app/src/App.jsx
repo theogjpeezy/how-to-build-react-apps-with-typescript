@@ -12,7 +12,7 @@ const App = () => {
   const completeTodo = (todoName) =>
     setTodos(
       todos.map((todo) => {
-        if (todo.title !== todoName) return todo;
+        if (todo.name !== todoName) return todo;
         return {
           ...todo,
           completed: true,
@@ -26,7 +26,7 @@ const App = () => {
       <div className={"App-logo"}>
         <Container>
           <TodoInput addTodo={setTodos} />
-          <TodoCardGrid todos={todos} completeTodo={completeTodo} />
+          <TodoCardGrid todos={todos} completedTodo={completeTodo} />
         </Container>
       </div>
     </div>

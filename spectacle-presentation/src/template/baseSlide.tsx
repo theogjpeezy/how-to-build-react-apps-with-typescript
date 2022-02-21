@@ -27,7 +27,7 @@ export interface ISectionSlideProps {
 
 export const SectionSlide: React.FunctionComponent<ISectionSlideProps> = ({sectionName, subHeading, children}) => {
   return <BlankSlide>
-    <Heading margin={'40vh 0 0 2vw'} textAlign={'left'} fontSize={'h1'}>{sectionName}</Heading>
+    <Heading margin={'30vh 0 0 2vw'} textAlign={'left'} fontSize={'h1'}>{sectionName}</Heading>
     {!!subHeading && <Heading margin={'0 10vw 0 4vw'} color={'ceCharcoal'} textAlign={'left'} fontSize={'42px'}>{subHeading}</Heading>}
     {!!children && <Box padding={1}>{children}</Box>}
   </BlankSlide>
