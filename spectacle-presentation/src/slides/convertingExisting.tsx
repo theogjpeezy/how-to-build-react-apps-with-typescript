@@ -28,7 +28,7 @@ export const ConvertingExisting: React.FunctionComponent = () => {
       Now that we've had the tour, lets start by converting these to typescript files.  We can do that by changing the file extensions from
       jsx to tsx.
       We can see right away that a fair amount of our files have red squiglies in them.  Lets start at the bottom and work our way up.
-      completeButton -> todo -> todoCardGrid -> todoInput -> App -> todoCardGrid
+      completeButton - todo - todoCardGrid - todoInput - App - todoCardGrid
 
       1. Using the wrong prop for completeTodo for TodoCardGrid in App.jsx.              
       2. App.jsx sends the wrong function for addTodo                                    

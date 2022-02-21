@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Deck, defaultTheme } from 'spectacle';
+import { Deck } from 'spectacle';
 import { SlideShowTemplate } from './template/slideShowTemplate';
 import { IntroSlide } from './slides/intro';
 import { AgendaOne } from './slides/agendaOne';
@@ -15,7 +15,7 @@ import { WhatIsTypeScriptSection } from './slides/whatIsTypeScriptSection';
 import { WhatIsTypeScript } from './slides/whatIsTypeScript';
 import { BenefitsOfTypeScript } from './slides/benefitsOfTypeScript';
 import { TypeBasicDefinition } from './slides/typeBasicDefinition';
-import { TypeUserDefined as TypeUserDefined } from './slides/typeUserDefined';
+import { TypeUserDefined } from './slides/typeUserDefined';
 import { TypeGenerics } from './slides/typeGenerics';
 import { NewTypeScriptReactApp } from './slides/newTypeScriptReactApp';
 import { ConvertingExisting } from './slides/convertingExisting';

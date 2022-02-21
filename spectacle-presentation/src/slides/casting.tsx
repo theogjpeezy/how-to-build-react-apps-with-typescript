@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, CodePane, Notes, Slide, UnorderedList } from 'spectacle';
+import { Box, CodePane, Notes, Slide } from 'spectacle';
 
 
 export const Casting: React.FunctionComponent = () => {

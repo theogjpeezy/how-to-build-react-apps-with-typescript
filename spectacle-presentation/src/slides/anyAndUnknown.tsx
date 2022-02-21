@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, CodePane, Heading, Notes, Slide, Text } from 'spectacle';
+import { Heading, Notes, Text } from 'spectacle';
 import { SlideWithHeader } from '../template/baseSlide';
 
 export const AnyAndUnknown: React.FunctionComponent = () => {

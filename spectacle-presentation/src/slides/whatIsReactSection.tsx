@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, Notes } from "spectacle";
+import { Notes } from "spectacle";
 import { SectionSlide } from "../template/baseSlide";
 
 export const WhatIsReactSection: React.FunctionComponent = () => 
