@@ -13,7 +13,6 @@ export const BenefitsOfTypeScript: React.FunctionComponent = () => {
     <ListItem>Typescript is widely adopted, so most of your third-party libraries already ship with types, meaning less jumping to online docs​</ListItem>
     <ListItem>At the end of the day, we still ship Javascript, so past types, there isn't anything different in the way we write the application​</ListItem>
     <ListItem>Adoption can be gradual</ListItem>
-    <ListItem>Encourages ongoing refactors as a contract is established already for functionality​</ListItem>
     </UnorderedList>
     <Notes> 
       There are a ton of benefits to TypeScript.  When working in teams I find it just about mandatory.  By describing types in our applications we are actually

@@ -22,7 +22,7 @@ export const TypeGenerics: React.FunctionComponent = () => {
 
           // Generics in a Class
           class MyClass<TId> {
-            constructor(private id: TId) {}
+            constructor(public id: TId) {}
           }
 
           const myNumberIdObject = new MyClass<number>(1); //myNumberIdObject.id is a number

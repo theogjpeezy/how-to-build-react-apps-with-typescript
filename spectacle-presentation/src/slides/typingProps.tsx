@@ -16,11 +16,11 @@ export const TypingProps: React.FunctionComponent = () => {
           // Function Components
           // Using the React.FunctionComponent type - this auto includes children as a prop
           const Comp: React.FunctionComponent<ICompProps> = ({value, count}) => {
-            return <label>{\`The \$\{value\} count is \$\{count\}\`};
+            return <label>{\`The \$\{value\} count is \$\{count\}\`}</label>;
           }
           // Using type signature in the parameters - children must be defined in the given type if you want to use it
           const Comp = ({value, count}: ICompProps) => {
-            return <label>{\`The \$\{value\} count is \$\{count\}\`};
+            return <label>{\`The \$\{value\} count is \$\{count\}\`}</label>;
           }
 
           //If your IDE supports it, you should now get code completion for a component's props
