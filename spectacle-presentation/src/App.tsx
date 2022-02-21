@@ -15,7 +15,7 @@ import { WhatIsTypeScriptSection } from './slides/whatIsTypeScriptSection';
 import { WhatIsTypeScript } from './slides/whatIsTypeScript';
 import { BenefitsOfTypeScript } from './slides/benefitsOfTypeScript';
 import { TypeBasicDefinition } from './slides/typeBasicDefinition';
-import { TypeUserDefinedComposed } from './slides/typeUserDefinedComposed';
+import { TypeUserDefined as TypeUserDefined } from './slides/typeUserDefined';
 import { TypeGenerics } from './slides/typeGenerics';
 import { NewTypeScriptReactApp } from './slides/newTypeScriptReactApp';
 import { ConvertingExisting } from './slides/convertingExisting';
@@ -28,6 +28,8 @@ import { BringingItTogetherSection } from './slides/bringingItTogetherSection';
 import { ReactJSShortComings } from './slides/reactJSShortcomings';
 import { TypingProps } from './slides/typingProps';
 import { TypingState } from './slides/typingState';
+import { TypeScriptDetractors } from './slides/typeScriptDetractors';
+import { TypeSection } from './slides/TypesSection';
 
 function App() {
   return (
@@ -44,17 +46,19 @@ function App() {
       <WhatIsTypeScriptSection />
       <WhatIsTypeScript />
       <BenefitsOfTypeScript />
+      <TypeScriptDetractors />
+      <TypeSection />
       <TypeBasicDefinition />
-      <TypeUserDefinedComposed />
-      <TypeGenerics />
+      <TypeUserDefined />
       <ComposingTypes />
+      <TypeGenerics />
       <AnyAndUnknown />
       <Casting />
       <BringingItTogetherSection />
-      <NewTypeScriptReactApp />
       <ReactJSShortComings />
       <TypingProps />
       <TypingState />
+      <NewTypeScriptReactApp />
       <ConvertingExisting />
       <FurtherResources />
     </Deck>

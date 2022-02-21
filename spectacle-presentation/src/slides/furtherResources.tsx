@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Grid, Heading, Link, ListItem, Text, UnorderedList } from 'spectacle';
+import { Box, Grid, Heading, Link, ListItem, Notes, Text, UnorderedList } from 'spectacle';
 import { BlankSlide } from '../template/baseSlide';
 
 
@@ -19,5 +19,16 @@ export const FurtherResources: React.FunctionComponent = () => {
         <Text fontSize={'list'}>Spectacle - a presentation framework built in React - <Link fontSize={'list'} target={'_blank'} href={'https://bit.ly/3JIV8cG'}>https://bit.ly/3JIV8cG</Link></Text>
       </Box>
     </Grid>
+    <Notes>
+      That brings us to the end of the presentation.  I did want to call out some additional resources for you to explore if you wanted to find out more. 
+      The TypeScript playground is out there.  It's a REPL app that lets you write TypeScript and it will show you what it transpiles to in the next pane.  Its a neat way to try stuff out.
+      Next is the TypeScript Deep Dive Book.  This book is still being updated and its a really strong place for best practices.  Its free online through GitBook
+      Lastly, if you haven't written a react app before, you can use some of the tools from this talk and follow the instructions on the Tic Tac Toe tutorial on the React Website.
+
+      One last thing I wanted to call out. In the interest of eating my own dogfood.  This presentation was built using spectacle.  Its a library built on react to make presentation.  So this 
+      entire slide deck is actually built in TypeScript and React.  If you want to find out more about the presentation tool you can go to that link to explore spectacle.
+
+      Once again, my name is Justin Cronin.  Thanks again for coming!
+    </Notes>
   </BlankSlide>
 }

@@ -7,6 +7,9 @@ export const NewTypeScriptReactApp: React.FunctionComponent = () => {
     <Box padding={'10vh 1vw 10vh 1vw'} borderRadius={'20px'} margin={'2vh'} backgroundColor={'rgba(1,1,1,.2)'}>
       <Text textAlign={'center'}><CodeSpan>create-react-app my-ts-app --template=typescript</CodeSpan></Text>
     </Box>
-    <Notes> </Notes>
+    <Notes> 
+      Okay, what if you wanted to create a brand new react app with TypeScript.  Its as easy as running this command.  
+      This will build the react app with the name you want, download dependencies and make all of the files TypeScript files.
+    </Notes>
   </SlideWithHeader>;
 }

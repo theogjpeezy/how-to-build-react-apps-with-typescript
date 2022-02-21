@@ -18,7 +18,10 @@ export const Casting: React.FunctionComponent = () => {
         `}
       </CodePane>
     </Box>
-    <Notes> </Notes>
+    <Notes> 
+      This is a basic example of casting.  The first block shows how we would cast in a normal TypeScript file.  That is one that has the TS file extension. If it is using React JSX syntax, the file extension
+      will instead be tsx and since tags are used, we need an alternative way to designate a cast.  The "as type" notation does that for us.
+    </Notes>
   </Slide>
 }
 

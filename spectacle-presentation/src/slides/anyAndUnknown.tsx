@@ -21,6 +21,10 @@ export const AnyAndUnknown: React.FunctionComponent = () => {
         to be explicity about the type we are using, rather than implicit.
       `}
     </Text>
-    <Notes> </Notes> 
+    <Notes> 
+      We are going to touch on this real quick, just in case you need to get out of the TypeScript compiler.  There are two types built in.  any and unknown.
+      Any is essentially saying that a value could be anything.  Type checking will not be run on this value in any manner.
+      Unknown is the opposite.  This is saying we have no clue what this is and you need to cast it most likely to something we do know in order to use it in any functional way.  
+    </Notes> 
   </SlideWithHeader>;
 }
